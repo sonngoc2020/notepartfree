@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/gr1">
+        <item
+            android:id="@+id/nav_Notes"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Notes" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/gr2">
+        <item
+            android:id="@+id/nav_Categories"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_Editcategories"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Edit categories" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/gr3">
+        <item
+            android:id="@+id/nav_Backup"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Backup" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Trash" />
+    </group>
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_Ratetheapp"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Rate the app" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_Privacypolicy"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Privacy policy" />
+
+</menu>
